@@ -9,7 +9,8 @@
 # Bob - Club Treasurer
 # ```
 # Add each member instance to a new club_members list that you create.
-# Write the code needed to loop through the club member list and print the current number of members in the list, then the member’s name and club role, one per line using f strings.
+# Write the code needed to loop through the club member list and print the current
+# number of members in the list, then the member’s name and club role, one per line using f strings.
 
 # Example Output:
 # ```
@@ -20,4 +21,10 @@
 # Club Secretary: Albert
 # Club Treasurer: Bob
 # ```
+
+class ClubMember:
+    def __init__(self, name, role):
+        self.name_p = name
+        self.role_p = role
+
 

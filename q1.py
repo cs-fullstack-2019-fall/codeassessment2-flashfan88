@@ -1,6 +1,8 @@
 # ### Problem 1
 # Ask the user to enter a number. 
-# Using the provided list of numbers, use a for loop to iterate the array and print out all the values that are smaller than the user input and print out all the values that are larger than the number entered by the user.
+# Using the provided list of numbers,
+# use a for loop to iterate the array and print out all the values that are smaller than the user
+# input and print out all the values that are larger than the number entered by the user.
 
 # ```
 # # Start with this List
@@ -12,3 +14,14 @@
 # 1  2  7 are smaller than 9
 # 12  24  34  10 are larger than 9
 # ```
+list_of_many_numbers = [12, 24, 1, 34, 10, 2, 7]
+
+usernumber = input("Enter a number")
+for x in range(int(list_of_many_numbers)):
+    if usernumber > 12:
+        print("this number is larger")
+
+
+
+
+

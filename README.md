@@ -1,4 +1,17 @@
+1 Checked everything against 12  'if usernumber > 12:' for some reason not number entered
+
+2 good
+
+3 didnt attempt
+
+4 mostly correct
+
+5 partial class definition only
+
+6 partial class definition only
+
 # codeAssessment2
+
 #### Final Grade: 6/12
 ### Instructions
 Answer each question inside of the individual question files. Each file has the question paste inside of it.
